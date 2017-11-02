@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "virtualMachineName": {
+            "value": "mymanagedvm"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS11"
+        },
+        "adminUsername": {
+            "value": "holuser"
+        },
+        "virtualNetworkName": {
+            "value": "MyVNET"
+        },
+        "networkInterfaceName": {
+            "value": "mymanagedvm827"
+        },
+        "networkSecurityGroupName": {
+            "value": "mymanagedvm-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "devopsdiag870"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/06db2c86-1a6f-4b64-8878-b73c5b75645e/resourceGroups/devops/providers/Microsoft.Storage/storageAccounts/devopsdiag870"
+        },
+        "subnetName": {
+            "value": "Subnet"
+        },
+        "publicIpAddressName": {
+            "value": "mymanagedvm-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        }
+    }
+}
